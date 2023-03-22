@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="5.0">
+  <display-name>employeesDetails</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AddEmp_Controller</display-name>
+    <servlet-name>AddEmp_Controller</servlet-name>
+    <servlet-class>app.controller.AddEmp_Controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddEmp_Controller</servlet-name>
+    <url-pattern>/AddEmp_Controller</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteEmp_Controller</display-name>
+    <servlet-name>DeleteEmp_Controller</servlet-name>
+    <servlet-class>app.controller.DeleteEmp_Controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteEmp_Controller</servlet-name>
+    <url-pattern>/DeleteEmp_Controller</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SearchEmp_Controller</display-name>
+    <servlet-name>SearchEmp_Controller</servlet-name>
+    <servlet-class>app.controller.SearchEmp_Controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchEmp_Controller</servlet-name>
+    <url-pattern>/SearchEmp_Controller</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DisplayAllEmp_Controller</display-name>
+    <servlet-name>DisplayAllEmp_Controller</servlet-name>
+    <servlet-class>app.controller.DisplayAllEmp_Controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DisplayAllEmp_Controller</servlet-name>
+    <url-pattern>/DisplayAllEmp_Controller</url-pattern>
+  </servlet-mapping>
+</web-app>
